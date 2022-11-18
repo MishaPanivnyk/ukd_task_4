@@ -1,4 +1,4 @@
-let arr2 = [1, 2, 3, 4, 5];
+let arr = [1, 2, 3, 4, 5];
 
 function binarySearch(array, num) {
   let low = 0;
@@ -17,4 +17,4 @@ function binarySearch(array, num) {
   return -1;
 }
 
-console.log(binarySearch(arr2, 4));
+console.log(`Index: ${binarySearch(arr, 2)}`);
